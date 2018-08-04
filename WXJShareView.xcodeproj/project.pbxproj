@@ -15,6 +15,11 @@
 		2359128621154142003EF9FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2359128521154142003EF9FD /* main.m */; };
 		2359129021154142003EF9FD /* WXJShareViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2359128F21154142003EF9FD /* WXJShareViewTests.m */; };
 		2359129B21154142003EF9FD /* WXJShareViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2359129A21154142003EF9FD /* WXJShareViewUITests.m */; };
+		235912B821154242003EF9FD /* ShareCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 235912B321154242003EF9FD /* ShareCollectionViewCell.m */; };
+		235912B921154242003EF9FD /* ShareTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 235912B521154242003EF9FD /* ShareTableViewCell.m */; };
+		235912BA21154242003EF9FD /* WXJShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 235912B721154242003EF9FD /* WXJShareView.m */; };
+		235912BD211543DE003EF9FD /* UIView+WXJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 235912BB211543DE003EF9FD /* UIView+WXJExtension.m */; };
+		235912C02115507B003EF9FD /* WColl.m in Sources */ = {isa = PBXBuildFile; fileRef = 235912BF2115507B003EF9FD /* WColl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		2359129621154142003EF9FD /* WXJShareViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXJShareViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2359129A21154142003EF9FD /* WXJShareViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXJShareViewUITests.m; sourceTree = "<group>"; };
 		2359129C21154142003EF9FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		235912B221154242003EF9FD /* ShareCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareCollectionViewCell.h; sourceTree = "<group>"; };
+		235912B321154242003EF9FD /* ShareCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareCollectionViewCell.m; sourceTree = "<group>"; };
+		235912B421154242003EF9FD /* ShareTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareTableViewCell.h; sourceTree = "<group>"; };
+		235912B521154242003EF9FD /* ShareTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareTableViewCell.m; sourceTree = "<group>"; };
+		235912B621154242003EF9FD /* WXJShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXJShareView.h; sourceTree = "<group>"; };
+		235912B721154242003EF9FD /* WXJShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXJShareView.m; sourceTree = "<group>"; };
+		235912BB211543DE003EF9FD /* UIView+WXJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WXJExtension.m"; sourceTree = "<group>"; };
+		235912BC211543DE003EF9FD /* UIView+WXJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WXJExtension.h"; sourceTree = "<group>"; };
+		235912BE2115507B003EF9FD /* WColl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WColl.h; sourceTree = "<group>"; };
+		235912BF2115507B003EF9FD /* WColl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WColl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,7 @@
 				2359127721154142003EF9FD /* AppDelegate.m */,
 				2359127921154142003EF9FD /* ViewController.h */,
 				2359127A21154142003EF9FD /* ViewController.m */,
+				235912B121154242003EF9FD /* WXJShareView */,
 				2359127C21154142003EF9FD /* Main.storyboard */,
 				2359127F21154142003EF9FD /* Assets.xcassets */,
 				2359128121154142003EF9FD /* LaunchScreen.storyboard */,
@@ -130,6 +146,23 @@
 				2359129C21154142003EF9FD /* Info.plist */,
 			);
 			path = WXJShareViewUITests;
+			sourceTree = "<group>";
+		};
+		235912B121154242003EF9FD /* WXJShareView */ = {
+			isa = PBXGroup;
+			children = (
+				235912BC211543DE003EF9FD /* UIView+WXJExtension.h */,
+				235912BB211543DE003EF9FD /* UIView+WXJExtension.m */,
+				235912B221154242003EF9FD /* ShareCollectionViewCell.h */,
+				235912B321154242003EF9FD /* ShareCollectionViewCell.m */,
+				235912B421154242003EF9FD /* ShareTableViewCell.h */,
+				235912B521154242003EF9FD /* ShareTableViewCell.m */,
+				235912BE2115507B003EF9FD /* WColl.h */,
+				235912BF2115507B003EF9FD /* WColl.m */,
+				235912B621154242003EF9FD /* WXJShareView.h */,
+				235912B721154242003EF9FD /* WXJShareView.m */,
+			);
+			path = WXJShareView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +300,12 @@
 			files = (
 				2359127B21154142003EF9FD /* ViewController.m in Sources */,
 				2359128621154142003EF9FD /* main.m in Sources */,
+				235912B821154242003EF9FD /* ShareCollectionViewCell.m in Sources */,
+				235912C02115507B003EF9FD /* WColl.m in Sources */,
 				2359127821154142003EF9FD /* AppDelegate.m in Sources */,
+				235912BD211543DE003EF9FD /* UIView+WXJExtension.m in Sources */,
+				235912BA21154242003EF9FD /* WXJShareView.m in Sources */,
+				235912B921154242003EF9FD /* ShareTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

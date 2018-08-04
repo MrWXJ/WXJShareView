@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WColl.h
 //  WXJShareView
 //
 //  Created by MrWXJ on 2018/8/4.
@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "WXJShareView.h"
 
-@interface ViewController : UIViewController
+@interface WColl : UICollectionView
 
+@property (nonatomic, strong) NSIndexPath *indexPath;
 
 @end
-
